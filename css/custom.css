@@ -1,0 +1,10 @@
+@counter-style star {
+  system: cyclic;
+  symbols: \002D; /*utf8 code for "star" "★" */
+  suffix: " ";
+}
+
+ul.neutral {
+  list-style-type: star !important;
+  /* list-style-type: symbols(-); */
+}
